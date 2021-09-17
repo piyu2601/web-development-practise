@@ -1,0 +1,50 @@
+<!-- box shadow and text shadow -->
+ <!-- syntax: box shadow: x-axis y-axis blurrness spread_color color -->
+<!-- inset for inside shadow and offset for outside shadow but offset is set by default -->
+ <!-- text-shadow:  -->
+ 
+
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow and text shadow</title>
+    <style>
+        .container{
+            display: flex;
+            
+        }
+        .card{
+            border: 2px solid black;
+            padding: 23px 12px;
+            margin:23px 12px;
+            background-color: burlywood;
+            box-shadow: 2px 4px 10px 7px red ;
+            background-blend-mode: lighten;
+             
+        }
+        .card h2,p{
+            text-shadow:  4px 4px rgb(255, 255, 255);
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h2>This is course</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos vitae libero necessitatibus recusandae nam odit dolorem maxime enim sed nemo, nisi veritatis, quod ratione ullam laboriosam quasi cupiditate voluptatem natus ducimus fuga officiis. Laborum.</p>
+        </div>
+        <div class="card" id="card2">
+            <h2>This is course</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos vitae libero necessitatibus recusandae nam odit dolorem maxime enim sed nemo, nisi veritatis, quod ratione ullam laboriosam quasi cupiditate voluptatem natus ducimus fuga officiis. Laborum.</p>
+        </div>
+        <div class="card" id="card3">
+            <h2>This is course</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos vitae libero necessitatibus recusandae nam odit dolorem maxime enim sed nemo, nisi veritatis, quod ratione ullam laboriosam quasi cupiditate voluptatem natus ducimus fuga officiis. Laborum.</p>
+        </div>
+    </div>
+</body>
+</html>
